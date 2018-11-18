@@ -1,0 +1,17 @@
+# Vim
+*~
+*.swp
+
+# C/C++
+*.o
+*.a
+
+# Python
+*.py[cod]
+__pycache__
+_build
+_venv
+
+# Mac
+.DS_Store
+
