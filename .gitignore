@@ -5,6 +5,7 @@
 # C/C++
 *.o
 *.a
+*.d
 
 # Python
 *.py[cod]
