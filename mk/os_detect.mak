@@ -7,10 +7,15 @@ ifeq ($(OS), Windows_NT)
 	EXT = .exe
 	PLATFORM = Windows
 else
+    RM = rm -f
+    EXT =
     PREFIX = ./
-	RM = rm -f
-	EXT =
+    UNAME = $(shell uname -s)
+    ifeq ($(UNAME), Linux)
+	PLATFORM = Linux
+    else
 	PLATFORM = Mac
+    endif
 endif
 
 include $(wildcard mk/*.mk)
