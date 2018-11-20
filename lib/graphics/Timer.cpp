@@ -21,7 +21,7 @@ void Timer::start() {
 #ifdef WIN32
     QueryPerformanceCounter(&start_time);
 #else
-    gettimeofday(&start_time, NULL);
+    gettimeofday(&start_time, nullptr);
     stopped = false;
 #endif
 }
@@ -30,7 +30,7 @@ void Timer::stop() {
 #ifdef WIN32
     QueryPerformanceCounter(&end_time);
 #else
-    gettimeofday(&end_time, NULL);
+    gettimeofday(&end_time, nullptr);
     stopped = false;
 #endif
 }
@@ -44,7 +44,7 @@ double Timer::get_elapsed_time() {
 #ifdef WIN32
     QueryPerformanceCounter(&end_time);
 #else
-    gettimeofday(&end_time, NULL);
+    gettimeofday(&end_time, nullptr);
 #endif
 
 #ifdef WIN32
