@@ -9,3 +9,7 @@ ifeq ($(PLATFORM), Windows)
 	LFLAGS += -L\tools\freeglut\lib\x64
 	LFLAGS += -lfreeglut -lglu32 -lopengl32 -Wl,--subsystem,windows
 endif
+ifeq ($PLATFORM), Linux)
+	CXXFLAGS += /usr/include
+	LFLAGS ++ -lglut -lGLU -lGL
+endif
