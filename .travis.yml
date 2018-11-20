@@ -1,0 +1,19 @@
+sudo: false
+language:cpp
+
+compiler: g++
+
+before_install:
+  - sudo apt-get update -qq
+
+install:
+  - pip install -r requirements.txt
+
+before_script:
+  - make clean
+
+script:
+  - make
+  - make lint
+  - make test
+
