@@ -3,6 +3,9 @@ language: cpp
 
 compiler: g++
 
+install:
+  - sudo apt-get install freeglut3-dev
+
 script:
   - make clean
   - make
