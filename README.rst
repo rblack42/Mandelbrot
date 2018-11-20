@@ -16,7 +16,7 @@ To run this project do the following:
     1. Make sure Standard C++/make tools are installed. You also need
            ``python3`` and ``pip`` on the host machine
 
-    2. Run ``git clone https://github.com/rblack42/mandelbrot.git``
+    2. Run ``git clone https://github.com/rblack42/Mandelbrot.git``
 
     3. Run ``cd mandelbrot``
 
