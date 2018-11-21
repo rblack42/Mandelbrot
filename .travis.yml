@@ -9,6 +9,5 @@ install:
 script:
   - make clean
   - make
-  - make lint
   - make test
 

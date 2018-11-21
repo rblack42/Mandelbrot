@@ -23,6 +23,7 @@ endif
 include $(wildcard mk/cppfiles.mk)
 include $(wildcard mk/cppgraphics.mk)
 include $(wildcard mk/cppproj.mk)
+include $(wildcard mk/cpplint.mk)
 include $(wildcard mk/util/*.mk)
 
 
