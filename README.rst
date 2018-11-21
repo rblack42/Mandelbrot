@@ -3,9 +3,9 @@ Mandelbrot Explorer
 :Author: Roie R. Black
 :Date: Nov 18,2018
 :Course: COSC1337 - Programming Fundamentals II
-:Docs: https://rblack42.github.io/mandelbrot
+:Docs: https://rblack42.github.io/Mandelbrot
 
-|travis-build| |license|
+|travis-build| |license| \quality|
 
 This repo contains sample code used by students in my class. The project is not
 well structured, and has issues that students will work to fix. As delivered it
@@ -37,4 +37,6 @@ Documentation is written using reStructuredText, and is processed using Python S
 
 ..  |license| image:: https://img.shields.io/badge/License-BSD%203--Clause-blue.svg
     :alt: BSD 3-Clause License
+
+ ..  |quality| image:: https://www.codacy.com/project/rblack42/Mandelbrot/dashboard?utm_source=github.com&utm_medium=referral&utm_content=rblack42/Mandelbrot&utm_campaign=Badge_Grade_Dashboard`
 
