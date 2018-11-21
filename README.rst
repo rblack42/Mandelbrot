@@ -5,7 +5,7 @@ Mandelbrot Explorer
 :Course: COSC1337 - Programming Fundamentals II
 :Docs: https://rblack42.github.io/Mandelbrot
 
-|travis-build| |license| \quality|
+|travis-build| |license| |quality|
 
 This repo contains sample code used by students in my class. The project is not
 well structured, and has issues that students will work to fix. As delivered it
