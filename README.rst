@@ -32,7 +32,7 @@ Documentation is written using reStructuredText, and is processed using Python S
     this project non a Linux virtual machine. Students normally do not use any
     of that capability.
 
-..  |travis-build| image:: https://travis-ci.org/rblack42/Rmandelbrot.svg?branch=master
+..  |travis-build| image:: https://travis-ci.org/rblack42/Mandelbrot.svg?branch=master
     :alt: Build badge from Travis-CI
 
 ..  |license| image:: https://img.shields.io/badge/License-BSD%203--Clause-blue.svg
