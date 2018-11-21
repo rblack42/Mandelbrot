@@ -38,6 +38,6 @@ Documentation is written using reStructuredText, and is processed using Python S
 ..  |license| image:: https://img.shields.io/badge/License-BSD%203--Clause-blue.svg
     :alt: BSD 3-Clause License
 
-..  |quality| image:: https://www.codacy.com/project/rblack42/Mandelbrot/dashboard?utm_source=github.com&utm_medium=referral&utm_content=rblack42/Mandelbrot&utm_campaign=Badge_Grade_Dashboard
+..  |quality| image:: https://api.codacy.com/project/badge/Grade/eff82548359d4514b8014bd27955e22a?isInternal=true
     :alt: Codacy Quality Badge
 
