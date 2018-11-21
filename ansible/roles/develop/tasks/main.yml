@@ -8,3 +8,9 @@
     - python3
     - python3-pip
     - freeglut3-dev
+
+- name: Install python dependencies
+  pip:
+    name:
+      - cpplint
+    executable: pip3
