@@ -1,0 +1,13 @@
+# DigitalOcean API v2 settings
+do_api_token: e0df4bd628976b23b1d1e4c81aba20a688a4c2857ccdafc1a948b081b0a57de3
+
+# DigitalOcean SSH key settings
+so_ssh_name: amsible
+do_ssh_pub_key: "{{ lookup('file', '~/id_rsa.pub') }}"
+do_ssg_private_key: "~/.ssh/id_rsa"
+
+# System user to create
+ssh_user: "('env', 'USER') }}"
+ssh_groupd: "sudo"
+ssh_pub_key: "{{ lookup('file', '~/.ssh/id_rsa.pub;) }}"
+

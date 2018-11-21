@@ -26,6 +26,11 @@ To run this project do the following:
 
 Documentation is written using reStructuredText, and is processed using Python Sphinx. Turn on the website setting on your GitHub repository and run "make html". When you push your code the output will be available at your account URL.
 
+..  warning::
+
+    The ``Vagrantfile`` file and the ``ansible`` directory are used for testing
+    this project non a Linux virtual machine. Students normally do not use any
+    of that capability.
 
 ..  |travis-build| image:: https://travis-ci.org/rblack42/Rmandelbrot.svg?branch=master
     :alt: Build badge from Travis-CI

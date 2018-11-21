@@ -18,4 +18,11 @@ else
     endif
 endif
 
-include $(wildcard mk/*.mk)
+# include make modules (order is important)
+
+include $(wildcard mk/cppfiles.mk)
+include $(wildcard mk/cppgraphics.mk)
+include $(wildcard mk/cppproj.mk)
+include $(wildcard mk/util/*.mk)
+
+

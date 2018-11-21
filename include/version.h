@@ -2,4 +2,4 @@
 
 // Copyright 2018 Roie R. Black
 
-#define VERSION "0.1.20"
+#define VERSION "0.1.24"
