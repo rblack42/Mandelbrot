@@ -1,6 +1,7 @@
 CXX = g++
 CXXFLAGS =
 LFLAGS =
+DELFILES =
 ifeq ($(OS), Windows_NT)
     PREFIX = 
 	RM = del

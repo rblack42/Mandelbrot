@@ -9,3 +9,9 @@ LOBJS = $(LSRCS:.cpp=.o)
 TOBJS = $(TSRCS:.cpp=.o)
 OBJS  = $(UOBJS) $(LOBJS) $(TOBJS)
 DEPS  = $(OBJS:.o=.d)
+ifeq ($(PLATFORM), Windows)
+   DELFILES = $(subst /,\,$(OBJS)) $(subst /,\,$(DEPS))
+else
+   DELFILES = $(OBJS) $(DEPS) 
+endif
+

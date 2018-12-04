@@ -1,7 +1,6 @@
 CXXFLAGS += -std=c++11 -Iinclude
 
 $(TARGET):	$(UOBJS) $(LOBJS) ## build target app
-	python mk/pyversion.py build
 	g++ -o $@ $^ $(LFLAGS)
 
 $(TSTTGT):	$(TOBJS) $(LOBJS) ## build test app
@@ -23,6 +22,6 @@ test: $(TSTTGT) ## run init tests
 
 .PHONY: clean
 clean: ## delete build artifacts
-	rm -rf $(OBJS) $(TARGET) $(TSTTGT) $(DEPS)
+	$(RM) $(DELFILES) $(TARGET) $(TSTTGT)
 
 -include $(DEPS)
